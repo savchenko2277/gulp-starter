@@ -29,7 +29,7 @@ let pth = {
 		html: './src/[^_]*.html',
 		js: './src/js/',
 		css: './src/scss/style.scss',
-		img: './src/img/!(svg|static){,/**}',
+		img: ['./src/img/**/*', '!./src/img/svg/**', '!./src/img/static/**'],
 		static: './src/img/static/**/*',
 		icn: './src/img/svg/**/*.svg',
 		fnts: './src/fonts/**/*.*',
