@@ -4,4 +4,5 @@ node_modules/
 *.rar
 *.zip
 .DS_Store
+.git
 Thumbs.db
